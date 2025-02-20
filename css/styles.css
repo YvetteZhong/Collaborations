@@ -61,6 +61,31 @@
     filter: drop-shadow(0 3px 6px rgba(243, 4, 4, 0.92));
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .image-container img {
+    display: block;
+    width: 100%; /* 或者指定具体的宽度 */
+  }
+  .image-container .text {
+    position: absolute;
+    color: white; /* 文字颜色 */
+    font-size: 46px; /* 文字大小 */
+    font-family: "Times New Roman";
+    font-weight: bolder;
+}
+
+.content-box {
+    border: 1px solid #e0e0e0; /* 边框颜色 */
+    border-radius: 38px; /* 圆角（可选） */
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 阴影（可选） */
+    background-color: white;
+}
+
 .n0-text {
     font-size: 18px;
     font-family:'Segoe UI';
